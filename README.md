@@ -42,16 +42,16 @@
                 http://127.0.0.1:2305/accounts/{status}
         - List down all the accounts where status = archive / unarchive
 
-##### Test cases
-* All the possible test cases also written, tested and and printed the received response
-1_test_create.py - Create 10 new accounts
-2_test_delete.py - Delete 4 existing accounts
-3_test_update.py - Update 5 existing accounts
-4_test_read.py - Read 6 existing accounts
-5_test_status.py - Switch 6 accounts between archive <-> unarchive
-6_test_accounts.py - Print down all the unarchived and archived accounts
+### Test cases
+*       All the possible test cases also written, tested and and printed the received response
+- 1_test_create.py - Create 10 new accounts
+- 2_test_delete.py - Delete 4 existing accounts
+- 3_test_update.py - Update 5 existing accounts
+- 4_test_read.py - Read 6 existing accounts
+- 5_test_status.py - Switch 6 accounts between archive <-> unarchive
+- 6_test_accounts.py - Print down all the unarchived and archived accounts
 
-##### Technologies used
+### Technologies used
 * Used technologies -> REST Api + Python
 1. Sublime Text - Source code editor
     - Natively supports many languages and markup languages
@@ -72,7 +72,7 @@
            * Human readable
            * Permanent (Memory storage is temporary)
           
-##### Future improvements
+### Future improvements
       I. SQL database can be used instead of CSV for storing bank account details
      II. Increasing security using asymmetric key encryption methodologies 
         - Now it is vulnerable to cyber attack (Easy to get NIC from API & Account details exposable when creating a new account)
